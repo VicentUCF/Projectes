@@ -1,0 +1,46 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+.btn {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+body{
+  background-color:#B4869F;
+  text-align: center;
+}
+
+#game{
+  padding: 15%;
+  padding-top: 5px;
+}
+
+#table{
+  background-color: #586F7C;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+
+.square{
+  margin:3px;
+  border-radius:5px;
+  width: 150px;
+  height: 100px;
+  background-color:#023436;
+  border: 1px solid black;
+  display: inline-block;
+  margin-right: 3px;
+}
+
+.square:hover{
+  background-color: #049A8F;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}

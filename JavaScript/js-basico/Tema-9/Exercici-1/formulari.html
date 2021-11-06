@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+  <head>
+    <title>Formulario completo</title>
+    <style type="text/css">
+      p {
+        margin-left: 2em;
+      }
+      h2 {
+        margin-left: 3em;
+      }
+      fieldset {
+        margin-left: 5em;
+        margin-right: 5em;
+        margin-top: 2em;
+      }
+    </style>
+
+    <script src="lectura.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <h1 style="text-align: center;">
+      Ejemplo de formulario completo con campos agrupados
+    </h1>
+    <form
+
+      method="post"
+      enctype="text/plain"
+    >
+      <h2>revista abierta</h2>
+      <fieldset>
+        <legend>datos personales</legend>
+        <p>
+          Nombre: <input type="text" name="nombre" /> Primer apellido:
+          <input type="text" name="apellido1" size="25" /> Segundo
+          apellido;<input type="text" name="apellido2" size="25" />
+        </p>
+        <p>
+          Direcci&oacute;n:
+          <input
+            type="text"
+            name="direccion"
+            size="50"
+            value="calle o plaza, n&uacute;mero y piso."
+          />
+        </p>
+        <p>e-mail: <input type="text" name="e-mail" size="35" value=" @ " /></p>
+        <p>
+          contrase&ntilde;a: <input type="password" name="contrase&ntilde;a" />
+        </p>
+        <p>sexo</p>
+        <input type="radio" name="sexo" value="v" /> Var&oacute;n<br />
+        <input type="radio" name="sexo" value="m" /> Mujer
+      </fieldset>
+      <fieldset>
+        <legend>Nivel de estudios e intereses</legend>
+        <p>
+          Nivel de estudios<br />
+          <input
+            type="radio"
+            name="estudios"
+            value="1"
+            checked="checked"
+          />Certificado escolar<br />
+          <input type="radio" name="estudios" value="2" /> Graduado en E.S.O.<br />
+          <input type="radio" name="estudios" value="3" /> Bachiller -
+          Formaci&oacute;n Profesional <br />
+          <input type="radio" name="estudios" value="4" /> Diplomado<br />
+          <input type="radio" name="estudios" value="5" /> Licenciado o
+          Doctorado
+        </p>
+        <p>
+          Recibir art&iacute;culos sobre los siguientes temas: <br />
+          <input type="checkbox" name="musica" /> M&uacute;sica<br />
+          <input type="checkbox" name="deportes" /> Deportes<br />
+          <input type="checkbox" name="cine" /> Cine<br />
+          <input type="checkbox" name="libros" /> Libros<br />
+          <input type="checkbox" name="ciencia" /> Ciencia
+        </p>
+      </fieldset>
+      <fieldset>
+        <legend>Datos sobre la revista</legend>
+        <p>Frecuencia con la que se recibir&aacute; la revista:</p>
+        <p>
+          <select id="frecuencia" name="frecuencia">
+            <option>semanal</option>
+            <option>quincenal</option>
+            <option>mensual</option>
+            <option>bimensual</option>
+          </select>
+        </p>
+        <p>
+          puedes mandar tu art&iacute;culo sobre cualquier tema de los que
+          tratamos. Nosotros lo valoraremos para que p�eda ser p�blicado.
+        </p>
+        <p>
+          mandar art&iacute;culo: <input type="file" name="art&iacute;culo" />
+        </p>
+
+        <p>
+          Si deseas mandar simplemente una opinion o comentario escribelo
+          aqu&iacute;.<br />
+          <textarea name="comentario: " rows="5" cols="50">
+Escribe tu comentario: </textarea
+          >
+        </p>
+      </fieldset>
+      <fieldset>
+        <legend>Comenzar de nuevo</legend>
+        <p>
+          Borrar todos los datos del formulario y volver a empezar:
+          <input type="reset" value="borrar todo" />
+        </p>
+      </fieldset>
+      <fieldset>
+        <legend>enviar</legend>
+        <p>
+          Enviar formulario por correo electronico: Al pulsar en el bot&oacute;n
+          se abrir&aacute; la pagina de env&iacute;o de correo: en esa
+          p&aacute;gina pulsa en enviar:
+        </p>
+        <p><input type="button" onclick="leerFormulario()" value="enviar por correo" /></p>
+      </fieldset>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script type="text/javascript">
+    	window.onload = function(){
+      document.addEventListener('keypress', function(e){
+        if (e.key == 'a') {
+          console.log("you pressed a");
+          let content = document.getElementById('hola');
+          content.innerHTML += 'Hola Mundo</br>';
+        }
+      });
+    }
+    </script>
+    <title></title>
+  </head>
+  <body>
+    <p id="hola">Hola</p>
+  </body>
+</html>

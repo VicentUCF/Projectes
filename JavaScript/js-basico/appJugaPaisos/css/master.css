@@ -1,0 +1,38 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  background-color: purple;
+}
+
+
+#tablero {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+button {
+  margin-top: 10px;
+  margin:10px;
+  padding: 10px;
+  background-Color: cyan;
+  box-shadow: 10px 5px black;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+
+}
+
+
+.square{
+  box-shadow: 10px -5px 10px black;
+  border-radius:5px;
+  width: 150px;
+  height: 100px;
+  background-color:grey;
+  border: 1px solid black;
+  display: inline-block;
+  margin-right: 3px;
+}
