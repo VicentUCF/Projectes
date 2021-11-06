@@ -1,0 +1,201 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+.portada{
+    text-align: center;
+}
+
+.bandera{
+  width: 3%;
+  margin: 5px;
+}
+header{
+  text-align: center;
+}
+
+nav{
+  text-align: center;
+  background-color: #333;
+}
+
+.navegation, ul , li{
+  display: inline;
+  margin: 2%;
+}
+
+.navegation li a {
+  width: 60px;
+  color: white;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+  text-decoration-color: brown;
+  color: #999999;
+}
+
+#titulo{
+  padding: 5%;
+  color: white;
+  text-align: left;
+  text-decoration: underline;
+  text-decoration-color: brown;
+  background-image: url("https://images5.alphacoders.com/912/thumb-1920-912624.jpg");
+}
+
+#idioma{
+  float: left;
+  text-align: right;
+  margin-right: 2%
+}
+
+
+article{
+  margin-top: 2%;
+}
+h2{
+  margin-left: 55%;
+  text-decoration: underline;
+  text-decoration-color: brown;
+  margin-bottom: 2%;
+}
+h3{
+  margin-left:55%;
+  margin-bottom: 1%;
+  border-bottom: 1px solid ;
+  margin-right:20%;
+}
+.description{
+  margin-left: 55%;
+  margin-right: 20%;
+  height:100px;
+}
+
+.fotos-pa{
+
+  float: left;
+  width: 25%;
+  margin-left: 25%;
+  border: 1px solid;
+  margin-top: 0px;
+
+}
+
+.comprar{
+  width: 5%;
+  height: 40px;
+  color: white;
+  margin-top:2%;
+  float: right;
+  margin-right:20%;
+  background-color:brown;
+  border-radius: 10px;
+}
+
+.comprar:hover{
+  background-color:#999999;
+  color:green;
+}
+
+.separador{
+  margin-top: 6%;
+}
+
+footer{
+  margin-top:10%;
+  text-align: center;
+  background-color:black;
+  color:#999999;
+}
+
+#presentacion{
+  margin-left:10%;
+  margin-top:0px;
+}
+
+.bloque{
+  margin-top:1%;
+  margin-bottom:2%;
+  margin-left:10%;
+  margin-right:60%;
+}
+
+#valores{
+  margin-left:10%;
+}
+#valores >img{
+  float:left;
+}
+#valores > div{
+  text-align:left;
+  margin-left:40%;
+  margin-bottom:100px;
+  margin-right:10%;
+}
+.text{
+  font-family:Monospace;
+  font-style: italic;
+  color: #2a2a2a;
+  font-size: 16px;
+}
+.title{
+  border-bottom:5px solid ;
+  margin-right:45%;
+  border-color:#ca5a42;
+  margin-bottom:10px;
+}
+
+#pan{
+  margin-top:1%;
+  float:right;
+  height:250px;
+  width:40%;
+  margin-right:14%;
+}
+
+.bloque-center{
+  margin-left:10%;
+  margin-top:10%;
+  text-align:left;
+  margin-right:15%;
+}
+
+.bloque-center > h1{
+  border-bottom:5px solid ;
+  text-align:left;
+
+  border-color:#ca5a42;
+  margin-bottom:10px;
+  }
+
+  #contacto{
+    margin-top:2%;
+    margin-left:35%;
+    float:left;
+    width:50%;
+
+  }
+
+  .correo{
+    width: 50%;
+    height: 30px;
+    margin-top:3px;
+    margin-bottom: 2%;
+  }
+
+  .contact{
+    margin-bottom:1%;
+    margin-top:3px;
+    margin-bottom:2%;
+    width:50%;
+    height:100px;
+    text-align:left;
+  }
+
+  #button{
+    height:40px;
+    border-radius:5px;
+    width:50%;
+
+  }
